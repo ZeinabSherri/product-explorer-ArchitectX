@@ -1,0 +1,62 @@
+{
+  "app": {
+    "title": "مستكشف المنتجات",
+    "subtitle": "اكتشف مجموعتنا المنتقاة"
+  },
+  "search": {
+    "placeholder": "ابحث عن المنتجات...",
+    "noResults": "لا توجد منتجات لـ \"{{query}}\""
+  },
+  "filter": {
+    "category": "الفئة",
+    "allCategories": "جميع الفئات"
+  },
+  "product": {
+    "inStock": "متوفر",
+    "outOfStock": "غير متوفر",
+    "lowStock": "كمية محدودة",
+    "rating": "التقييم",
+    "reviews": "تقييمات",
+    "price": "السعر",
+    "discount": "خصم",
+    "brand": "العلامة التجارية",
+    "sku": "رمز المنتج",
+    "stock": "المخزون",
+    "description": "الوصف",
+    "returnPolicy": "سياسة الإرجاع",
+    "shipping": "الشحن",
+    "warranty": "الضمان",
+    "tags": "الوسوم",
+    "images": "الصور",
+    "minOrder": "الحد الأدنى للطلب"
+  },
+  "pagination": {
+    "previous": "السابق",
+    "next": "التالي",
+    "page": "صفحة",
+    "of": "من",
+    "showing": "عرض",
+    "to": "إلى",
+    "results": "نتيجة"
+  },
+  "loading": {
+    "products": "جارٍ تحميل المنتجات...",
+    "product": "جارٍ تحميل تفاصيل المنتج..."
+  },
+  "error": {
+    "title": "حدث خطأ ما",
+    "message": "تعذّر تحميل المنتجات. يرجى المحاولة مرة أخرى.",
+    "retry": "حاول مجدداً"
+  },
+  "theme": {
+    "light": "الوضع النهاري",
+    "dark": "الوضع الليلي"
+  },
+  "language": {
+    "toggle": "English"
+  },
+  "reviews": {
+    "title": "تقييمات العملاء",
+    "noReviews": "لا توجد تقييمات بعد"
+  }
+}

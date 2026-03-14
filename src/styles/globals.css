@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Barlow+Condensed:wght@300;400;500;600;700&family=Cairo:wght@400;600;700&display=swap');
+
+/* ---------- CSS Reset ---------- */
+*, *::before, *::after { box-sizing: border-box; }
+body, h1, h2, h3, h4, p, dl, dd { margin: 0; }
+img { display: block; max-width: 100%; }
+button, input, select, textarea { font: inherit; }
+
+/* ---------- Design Tokens ---------- */
+:root {
+  --bg: #F5F2EE;
+  --card-bg: #FDFBF8;
+  --header-bg: rgba(245, 242, 238, 0.94);
+  --image-bg: #EDE9E3;
+  --border: #D8D2C8;
+  --border-strong: #B8B0A4;
+  --hover-bg: #EDE9E3;
+  --shadow: rgba(60, 50, 35, 0.1);
+  --shadow-strong: rgba(60, 50, 35, 0.2);
+
+  --text-primary: #1A1612;
+  --text-secondary: #6B6258;
+  --text-muted: #9E958A;
+
+  --accent: #C4440A;
+  --accent-subtle: rgba(196, 68, 10, 0.07);
+  --accent-hover: #A83808;
+
+  --skeleton-base: #E8E3DB;
+  --skeleton-shimmer: #F0EDE7;
+
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-body: 'Barlow Condensed', 'Helvetica Neue', sans-serif;
+}
+
+.dark, [data-theme="dark"] {
+  --bg: #100F0A;
+  --card-bg: #181610;
+  --header-bg: rgba(16, 15, 10, 0.94);
+  --image-bg: #1E1C14;
+  --border: #2C2A1E;
+  --border-strong: #3C3A2C;
+  --hover-bg: #1E1C14;
+  --shadow: rgba(0, 0, 0, 0.5);
+  --shadow-strong: rgba(0, 0, 0, 0.7);
+
+  --text-primary: #EEE8DC;
+  --text-secondary: #9C9282;
+  --text-muted: #5C5848;
+
+  --accent: #E05A1A;
+  --accent-subtle: rgba(224, 90, 26, 0.1);
+  --accent-hover: #F06A28;
+
+  --skeleton-base: #1E1C14;
+  --skeleton-shimmer: #28261C;
+}
+
+/* ---------- Base ---------- */
+html { font-size: 16px; scroll-behavior: smooth; }
+
+body {
+  font-family: var(--font-body);
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  background: var(--bg);
+  color: var(--text-primary);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  transition: background 0.3s, color 0.3s;
+}
+
+[dir="rtl"] body {
+  font-family: 'Cairo', var(--font-body);
+}
+
+::-webkit-scrollbar { width: 4px; height: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border-strong); }
+::-webkit-scrollbar-thumb:hover { background: var(--text-muted); }
+
+:focus-visible {
+  outline: 1px solid var(--accent);
+  outline-offset: 3px;
+}
+
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  z-index: 9999;
+  padding: 10px 20px;
+  background: var(--accent);
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.skip-link:focus { top: 0; }

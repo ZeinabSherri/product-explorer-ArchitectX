@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 64px 24px;
+  text-align: center;
+}
+
+.icon {
+  font-size: 48px;
+  line-height: 1;
+}
+
+.title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.message {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  max-width: 360px;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.button {
+  margin-top: 8px;
+  padding: 10px 28px;
+  border-radius: 8px;
+  border: none;
+  background: var(--accent);
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.button:hover { opacity: 0.85; }
+.button:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}

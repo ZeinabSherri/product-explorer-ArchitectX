@@ -1,0 +1,62 @@
+{
+  "app": {
+    "title": "Product Explorer",
+    "subtitle": "Discover our curated collection"
+  },
+  "search": {
+    "placeholder": "Search products...",
+    "noResults": "No products found for \"{{query}}\""
+  },
+  "filter": {
+    "category": "Category",
+    "allCategories": "All Categories"
+  },
+  "product": {
+    "inStock": "In Stock",
+    "outOfStock": "Out of Stock",
+    "lowStock": "Low Stock",
+    "rating": "Rating",
+    "reviews": "reviews",
+    "price": "Price",
+    "discount": "OFF",
+    "brand": "Brand",
+    "sku": "SKU",
+    "stock": "Stock",
+    "description": "Description",
+    "returnPolicy": "Return Policy",
+    "shipping": "Shipping",
+    "warranty": "Warranty",
+    "tags": "Tags",
+    "images": "Images",
+    "minOrder": "Min. Order"
+  },
+  "pagination": {
+    "previous": "Previous",
+    "next": "Next",
+    "page": "Page",
+    "of": "of",
+    "showing": "Showing",
+    "to": "to",
+    "results": "results"
+  },
+  "loading": {
+    "products": "Loading products...",
+    "product": "Loading product details..."
+  },
+  "error": {
+    "title": "Something went wrong",
+    "message": "We couldn't load the products. Please try again.",
+    "retry": "Try Again"
+  },
+  "theme": {
+    "light": "Light Mode",
+    "dark": "Dark Mode"
+  },
+  "language": {
+    "toggle": "عربي"
+  },
+  "reviews": {
+    "title": "Customer Reviews",
+    "noReviews": "No reviews yet"
+  }
+}
