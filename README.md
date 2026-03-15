@@ -16,7 +16,7 @@ npm test           # run tests
 
 ## What I Built
 
-A product listing app that pulls from the dummyjson API and lets users search, filter by category, and browse with pagination. Clicking any product opens a detail modal with an image gallery, full specs, and customer reviews. The whole UI switches between English and Arabic — layout, text direction, and all.
+A product listing app that pulls from the dummyjson API and lets users search, filter by category, and browse with pagination. Clicking any product opens a detail modal with an image gallery, full specs, and customer reviews. The whole UI switches between English and Arabic layout, text direction, and all.
 
 ## Folder Structure
 ```
