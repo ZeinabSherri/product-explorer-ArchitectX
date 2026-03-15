@@ -46,7 +46,7 @@ Pagination made more sense here for a few reasons. Users browsing products often
 ## Technical Decisions
 
 **TanStack Query instead of useEffect**
-I used TanStack Query for all data fetching because it handles caching, background refetch, loading/error states, and deduplication out of the box. Search results are cached for 5 minutes — if you search for something, navigate away, and come back, it loads instantly from cache without hitting the network again. The `placeholderData` option is what makes pagination smooth — no blank grids between page changes.
+I used TanStack Query for all data fetching because it handles caching, background refetch, loading/error states, and deduplication out of the box. Search results are cached for 5 minutes — if you search for something, navigate away, and come back, it loads instantly from cache without hitting the network again. The `placeholderData` option is what makes pagination smooth no blank grids between page changes.
 
 **CSS Modules instead of Tailwind**
 The RTL requirement made CSS Modules the better choice. Logical properties like `inset-inline-start` and `margin-inline-end` work natively with the `dir` attribute and flip the layout automatically in Arabic mode. No plugin needed, no duplicate RTL styles.
